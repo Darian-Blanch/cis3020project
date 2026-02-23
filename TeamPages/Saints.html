@@ -11,15 +11,12 @@
     }
 
     .banner::before {
-      content: "";
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 60%;
-      height: 100%;
-      background: black;
-      z-index: 1;
-    }
+  right: -40px;          /* added */
+  width: 65%;            /* changed */
+  background: black;
+  transform: skewX(-20deg);     /* added */
+  transform-origin: top right;  /* added */
+}
 
     .banner::after {
       content: "";
@@ -50,19 +47,18 @@
     }
   </style>
 </head>
-
 <body>
-
-  <div class="banner">
-    <div class="banner-content">
+  <div Banner>
+    
       <h2>New Orleans Saints</h2>
       <p>4th NFC South</p>
       <p>6 - 11 - 0</p>
-    </div>
+   
 
     <img class="banner-logo" src="../NO.webp" alt="Saints Logo">
   </div>
 
 </body>
 </html>
+
 
