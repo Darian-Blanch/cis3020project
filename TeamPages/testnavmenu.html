@@ -3,7 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <title>Dropdown Menu Example</title>
+<style>
+  /* Reset default list styling */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
+  /* Top-level menu */
+  .menu {
+    display: flex;
+    background: #333;
+  }
+
+  .menu > li {
+    position: relative; /* Needed for dropdown positioning */
+  }
+
+  .menu > li > a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu > li > a:hover {
+    background: #444;
+  }
+
+  /* Dropdown menu */
+  .dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Directly below parent */
+    left: 0;
+    background: #444;
+    min-width: 150px;
+  }
+
+  .dropdown li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .dropdown li a:hover {
+    background: #555;
+  }
+
+  /* Show dropdown on hover */
+  .menu li:hover .dropdown {
+    display: block;
+  }
+</style>
 
 
 </head>
