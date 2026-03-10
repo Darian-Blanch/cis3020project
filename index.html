@@ -4,17 +4,31 @@
   <head>
     <meta charset="UTF-8">
     <title>Project Home Page</title>
+    <style>
+      #container {
+        display: flex;
+        border: 1px green solid;
+        padding: 5px;
+      }
+      #container > ul > li {
+        padding: 10px;
+        border: 1px blue solid;
+      }
+
+
+    </style>
   </head>
 
 <body>
 <h1 style="">Landing Page Heading</h1>
 
 <!-- Navigation Menu -->
-<ul>
-  <li><a href="#Introduction">Introduction</a></li>
-  <li><a href="#NFLTeams">NFL Team Selection</a></li>
-</ul>
-
+<div id="container">
+  <ul>
+    <li><a href="#Introduction">Introduction</a></li>
+    <li><a href="#NFLTeams">NFL Team Selection</a></li>
+  </ul>
+</div>
 
 
 
