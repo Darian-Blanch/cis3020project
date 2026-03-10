@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <title>Project Home Page</title>
     <style>
-      #container {
+      #navmenu {
         display: flex;
-        border: 1px green solid;
+        background-color: black;
+        border: 5px green solid;
         padding: 5px;
       }
-      #container > div {
+      #navmenu > ul > li {
+        display:inline-flex;
+        list-style: none;
         padding: 10px;
         border: 1px blue solid;
       }
@@ -23,10 +26,15 @@
 <h1 style="">Landing Page Heading</h1>
 
 <!-- Navigation Menu -->
-<div id="container">
+<nav id="navmenu">
+  <ul>
+    <li></li>
+    <li></li>
+
+  </ul>
     <div><a href="#Introduction">Introduction</a></div>
     <div><a href="#NFLTeams">NFL Team Selection</a></div>
-</div>
+</nav>
 
 
 
