@@ -1,62 +1,82 @@
 
-    .banner {
-      position: relative;
-      width: 100%;
-      height: 180px;
-      background: white;
-      overflow: hidden;
-      border-bottom: 10px solid #9E7C0C;
-      border-left: 10px solid #9E7C0C;
-      border-right: 10px solid #9E7C0C;
-      border-top: 10px solid #9E7C0C;
+    :root {
+  --ravens-purple: #241773;
+  --ravens-gold: #9E7C0C;
+  --light-gray: #f4f4f4;
+  --dark-text: #333;
+}
 
+.ravens-banner {
+  width: 100%;
+  height: 250px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* This gradient creates the sharp diagonal split */
+  background: linear-gradient(
+    110deg, 
+    var(--light-gray) 60%, 
+    var(--ravens-gold) 60%, 
+    var(--ravens-gold) 61.5%, 
+    var(--ravens-purple) 61.5%
+  );
+}
 
-    }
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
 
-    /* Black right side with matching diagonal */
-    .banner::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -60px;        /* shifts black outward so diagonal aligns */
-      width: 60%;          /* wide enough to cover the right side */
-      height: 100%;
-      background: #241773; ;
-      transform: skewX(-20deg);
-      transform-origin: top right;
-      z-index: 1;
-      border-bottom: 10px solid #9E7C0C;
-    }
+.team-info h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--dark-text);
+  font-weight: 800;
+}
 
-    /* Gold diagonal separator */
-    .banner::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 40%;
-      width: 25%;          /* wide enough to fully cover seam */
-      height: 100%;
-      background: #9E7C0C; /* Saints gold */
-      transform: skewX(-20deg);
-      transform-origin: center;
-      z-index: 2;
-      border-bottom: 10px solid #9E7C0C;
-    }
+.stats {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-weight: 600;
+}
 
-    /* Text content */
-    .banner-content {
-      position: relative;
-      z-index: 3;
-      padding: 20px;
-      color: black;
-      font-family: Arial, sans-serif;
-    }
+.record {
+  margin: 2px 0 20px 0;
+  color: #777;
+  font-size: 0.9rem;
+}
 
-    /* Logo */
-    .banner-logo {
-      position: absolute;
-      right: 20px;
-      top: 20px;
-      width: 120px;
-      z-index: 3;
-    }
+.buy-gear {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #1a73e8; /* Blue accent like the image */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.buy-gear:hover {
+  background: #f8f8f8;
+}
+
+.logo-container {
+  position: relative;
+  right: 15%; /* Adjust this to center the logo on the gold line */
+  z-index: 2;
+}
+
+.logo {
+  height: 120px;
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+}
