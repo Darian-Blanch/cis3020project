@@ -1,0 +1,62 @@
+
+    .banner {
+      position: relative;
+      width: 100%;
+      height: 180px;
+      background: white;
+      overflow: hidden;
+      border-bottom: 10px solid #9E7C0C;
+      border-left: 10px solid #9E7C0C;
+      border-right: 10px solid #9E7C0C;
+      border-top: 10px solid #9E7C0C;
+
+
+    }
+
+    /* Black right side with matching diagonal */
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -60px;        /* shifts black outward so diagonal aligns */
+      width: 60%;          /* wide enough to cover the right side */
+      height: 100%;
+      background: #241773; ;
+      transform: skewX(-20deg);
+      transform-origin: top right;
+      z-index: 1;
+      border-bottom: 10px solid #9E7C0C;
+    }
+
+    /* Gold diagonal separator */
+    .banner::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 40%;
+      width: 25%;          /* wide enough to fully cover seam */
+      height: 100%;
+      background: #9E7C0C; /* Saints gold */
+      transform: skewX(-20deg);
+      transform-origin: center;
+      z-index: 2;
+      border-bottom: 10px solid #9E7C0C;
+    }
+
+    /* Text content */
+    .banner-content {
+      position: relative;
+      z-index: 3;
+      padding: 20px;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Logo */
+    .banner-logo {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 120px;
+      z-index: 3;
+    }

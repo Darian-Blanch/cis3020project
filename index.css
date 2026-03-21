@@ -1,29 +1,36 @@
 
-      .navmenu {
-        display: flex;
-        background-color: black;
-        border: 5px gray;
-        padding: 5px;
-      }
-      .navmenu > ul {
-        display: flex;
-        list-style: none;
-        padding: 0px;
-        margin: 0;
-      }
-      .navmenu > ul > li {
-        margin-right: 20px;
-        padding: 10px;
-        border-left: 2px solid yellow;
-        border-right: 2px solid yellow;
+.nfl-conference-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 20px;
+}
 
-        display:inline-block;
+.division-card {
+  background: white;
+  border-top: 5px solid #013369;
+  padding: 15px;
+  border-radius: 4px;
+}
+.team-list {
+  list-style: none;
+  padding: 0;
+}
+.team-list li {
+  margin: 10px 0;
+}
+.team-icon-nav {
+  width:  24px;
+  height: 24px;
+  background: none;
+  margin-right: 10px;
+  display:inline-block;
 
-      }
-       li > a {
-        text-decoration: none;
-        border: 5px yellow;
-        
-      }
+}
+.team-list a {
+  display: flex;
+  text-decoration: none;
+  color:black;
+}
 
 

@@ -4,38 +4,125 @@
   <head>
       <meta charset="UTF-8">
       <title>Project Home Page</title>
-      <!-- <link href="index.css" rel="stylesheet"> -->
+      <link href="index.css" rel="stylesheet">
+      <!-- <link href="C:\Users\daria\OneDrive\Desktop\Experiment Code\gemini.css" rel="stylesheet"> -->
 </head>
 <body>
 <h1>Landing Page Heading</h1>
 
 <!-- Navigation Menu -->
-<nav id="navmenu">
-  <ul>
-    <li><a href="#Introduction">Introduction</a></li>
-    <li><a href="#NFLTeams">NFL Team Selection</a></li>
+<nav class="nav-bar">
+  <ul class ="nav-links">
+    <li style="background-color:rgb(255, 255, 255)"><a href="#Introduction">Introduction</a></li>
+    <li style="background-color:rgb(255, 255, 255)"><a href="#NFLTeams">NFL Team Selection</a></li>
   </ul>
 </nav>
 
 
 
-<h2 style="margin-top:800px;">Introduction</h2>
+<h2 id="Introduction">Introduction</h2>
+
+<!-- Introduction paragraph (WIP) 
+ <p> </p>  -->
 
 <h2 id="NFLTeams">NFL Teams</h2>
 
 
+<div class="nfl-conference-container">
+  
+  <div class="division-card">
+    <h3>AFC East</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#bills"><img src="Images\TeamLogos\NavIcons\Buffalo-Bills-Logo-500x281.png" class="team-icon-nav">Buffalo Bills</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>AFC North</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="TeamPages/Ravens.html" style="color: black"><img src="Images\TeamLogos\NavIcons\Logo-Baltimore-Ravens-500x281.png" class="team-icon-nav">Baltimore Ravens</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><img src="Images\TeamLogos\NavIcons\Cincinnati-Bengals-Logo-500x281.png" class="team-icon-nav">Cincinnati Bengals</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><img src="Images\TeamLogos\NavIcons\Logo-Baltimore-Ravens-500x281.png" class="team-icon-nav">Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><img src="Images\TeamLogos\NavIcons\Logo-Baltimore-Ravens-500x281.png" class="team-icon-nav">Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>AFC South</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team1"><span class="team-icon-nav"></span>Team 1</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>AFC West</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team1"><span class="team-icon-nav"></span>Team 1</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="nfl-conference-container">
+  
+  <div class="division-card">
+    <h3>NFC East</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team1"><span class="team-icon-nav"></span>Team 1</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>NFC North</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team1"><span class="team-icon-nav"></span>Team 1</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>NFC South</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="TeamPages\Saints.html"><img src="Images/TeamLogos/NavIcons/New-Orleans-Saints-Logo-500x281.png" class="team-icon-nav">New Orleans Saints</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+  <div class="division-card">
+    <h3>NFC West</h3>
+    <ul class="team-list">
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team1"><span class="team-icon-nav"></span>Team 1</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team2"><span class="team-icon-nav"></span>Team 2</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team3"><span class="team-icon-nav"></span>Team 3</a></li>
+      <li style="background-color:rgb(255, 255, 255)"><a href="#team4"><span class="team-icon-nav"></span>Team 4</a></li>
+    </ul>
+  </div>
+</div>
 
 
 
 
-<p style="bottom:0;" >Pending Improvements</p>
+
+
+<!-- <p style="bottom:0;" >Pending Improvements</p>
   <ul> 
-    <li>Horizontal navigation menu with drop downs</li>
-    <li>Layout additions</li>
-    <li>Third idea</li>
-    <li>Fourth Idea</li>
-  </ul>
+    <li style="background-color:rgb(255, 255, 255)">Horizontal navigation menu with drop downs</li>
+    <li style="background-color:rgb(255, 255, 255)">Layout additions</li>
+    <li style="background-color:rgb(255, 255, 255)">Third idea</li>
+    <li style="background-color:rgb(255, 255, 255)">Fourth Idea</li>
+  </ul> -->
 
 </body>
 </html>
 
+<!-- Idea for Later
+ Dynamic ordering of division teams based on rankings -->
