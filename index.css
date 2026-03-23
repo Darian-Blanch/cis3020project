@@ -32,5 +32,41 @@
   text-decoration: none;
   color:black;
 }
+.home-nav-bar {
+  display: flex;
+  background-color: #013369 ; /* Official NFL Deep Blue */
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 4px solid #D50A0A; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-top:4px solid #D50A0A;
+  border-left: 4x solid #D50A0A;
+  border-right: 4px solid #D50A0A;
+}
+.home-nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 auto; /* Centers the menu on the screen */
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
 
+.home-nav-links li {
+    height: 30px; /* Shorter than the bar for a cleaner look */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+        }
+.home-nav-links a {
+  color: #f5f2f2;
+  text-decoration: none;
+  text-transform: uppercase; /* Sports menus are almost always uppercase */
+  padding: 0 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+ }
 

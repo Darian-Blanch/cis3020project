@@ -53,26 +53,12 @@
   font-size: 0.9rem;
 }
 
-.buy-gear {
-  background: white;
-  border: 1px solid #ddd;
-  padding: 10px 20px;
-  font-weight: bold;
-  color: #1a73e8; /* Blue accent like the image */
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
 
-.buy-gear:hover {
-  background: #f8f8f8;
-}
+
 
 .logo-container {
   position: relative;
-  right: 15%; /* Adjust this to center the logo on the gold line */
+  right:5%; /* Adjust this to center the logo on the gold line */
   z-index: 2;
 }
 
@@ -80,3 +66,47 @@
   height: 120px;
   filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
 }
+
+.team-nav-bar {
+  display: flex;
+  background-color: #241773 ; /* Official NFL Deep Blue */
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 4px solid #9E7C0C; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-top:4px solid #9E7C0C;
+  border-left: 4x solid #9E7C0C;
+  border-right: 4px solid #9E7C0C;
+}
+.team-nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 auto; /* Centers the menu on the screen */
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.team-nav-links li {
+    height: 30px; /* Shorter than the bar for a cleaner look */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+        }
+.team-nav-links a {
+  color: #f5f2f2;
+  text-decoration: none;
+  text-transform: uppercase; /* Sports menus are almost always uppercase */
+  padding: 0 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+ }
+
+ h3 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+ }
