@@ -1,0 +1,112 @@
+
+    :root {
+  --ravens-purple: #6653dd;
+  --ravens-gold: #9E7C0C;
+  --light-gray: #f4f4f4;
+  --dark-text: #333;
+}
+
+.ravens-banner {
+  width: 100%;
+  height: 250px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* This gradient creates the sharp diagonal split */
+  background: linear-gradient(
+    110deg, 
+    var(--light-gray) 60%, 
+    var(--ravens-gold) 60%, 
+    var(--ravens-gold) 61.5%, 
+    var(--ravens-purple) 61.5%
+  );
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.team-info h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--dark-text);
+  font-weight: 800;
+}
+
+.stats {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-weight: 600;
+}
+
+.record {
+  margin: 2px 0 20px 0;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+
+
+
+.logo-container {
+  position: relative;
+  right:5%; /* Adjust this to center the logo on the gold line */
+  z-index: 2;
+}
+
+.logo {
+  height: 120px;
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+}
+
+.team-nav-bar {
+  display: flex;
+  background-color: #241773 ; /* Official NFL Deep Blue */
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 4px solid #9E7C0C; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-top:4px solid #9E7C0C;
+  border-left: 4x solid #9E7C0C;
+  border-right: 4px solid #9E7C0C;
+}
+.team-nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 auto; /* Centers the menu on the screen */
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.team-nav-links li {
+    height: 30px; /* Shorter than the bar for a cleaner look */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+        }
+.team-nav-links a {
+  color: #f5f2f2;
+  text-decoration: none;
+  text-transform: uppercase; /* Sports menus are almost always uppercase */
+  padding: 0 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+ }
+
+ h3 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+ }
