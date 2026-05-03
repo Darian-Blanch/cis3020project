@@ -12,6 +12,12 @@
   padding: 15px;
   border-radius: 4px;
 }
+
+.division-name {
+ color: black;
+ border-bottom: 4px solid #626C80;
+
+}
 .team-list {
   list-style: none;
   padding: 0;

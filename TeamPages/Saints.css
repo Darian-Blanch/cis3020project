@@ -1,62 +1,112 @@
 
-    .banner {
-      position: relative;
-      width: 100%;
-      height: 180px;
-      background: white;
-      overflow: hidden;
-      border-bottom: 10px solid #d4af37;
-      border-left: 10px solid #d4af37;
-      border-right: 10px solid #d4af37;
-      border-top: 10px solid #d4af37;
+    :root {
+  --saints-gold: #D3BC8D;
+  --saints-black: #101820;
+  --light-gray: #f4f4f4;
+  --dark-text: #333;
+}
+
+.saints-banner {
+  width: 100%;
+  height: 250px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* This gradient creates the sharp diagonal split */
+  background: linear-gradient(
+    110deg, 
+    var(--light-gray) 60%, 
+    var(--saints-black) 60%, 
+    var(--saints-black) 61.5%, 
+    var(--saints-gold) 61.5%
+  );
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.team-info h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--dark-text);
+  font-weight: 800;
+}
+
+.stats {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-weight: 600;
+}
+
+.record {
+  margin: 2px 0 20px 0;
+  color: #777;
+  font-size: 0.9rem;
+}
 
 
-    }
 
-    /* Black right side with matching diagonal */
-    .banner::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -60px;        /* shifts black outward so diagonal aligns */
-      width: 60%;          /* wide enough to cover the right side */
-      height: 100%;
-      background: black;
-      transform: skewX(-20deg);
-      transform-origin: top right;
-      z-index: 1;
-      border-bottom: 10px solid #d4af37;
-    }
 
-    /* Gold diagonal separator */
-    .banner::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 40%;
-      width: 25%;          /* wide enough to fully cover seam */
-      height: 100%;
-      background: #d4af37; /* Saints gold */
-      transform: skewX(-20deg);
-      transform-origin: center;
-      z-index: 2;
-      border-bottom: 10px solid #d4af37;
-    }
+.logo-container {
+  position: relative;
+  right:5%; /* Adjust this to center the logo on the gold line */
+  z-index: 2;
+}
 
-    /* Text content */
-    .banner-content {
-      position: relative;
-      z-index: 3;
-      padding: 20px;
-      color: black;
-      font-family: Arial, sans-serif;
-    }
+.logo {
+  height: 120px;
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+}
 
-    /* Logo */
-    .banner-logo {
-      position: absolute;
-      right: 20px;
-      top: 20px;
-      width: 120px;
-      z-index: 3;
-    }
+.team-nav-bar {
+  display: flex;
+  background-color: #D3BC8D ; /* Official NFL Deep Blue */
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 4px solid #101820; 
+  box-shadow: 0 4px 12px #00000033;
+  border-top:4px solid #101820;
+  border-left: 4x solid #101820;
+  border-right: 4px solid #101820;
+}
+.team-nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 auto; /* Centers the menu on the screen */
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.team-nav-links li {
+    height: 30px; /* Shorter than the bar for a cleaner look */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+        }
+.team-nav-links a {
+  color: #f5f2f2;
+  text-decoration: none;
+  text-transform: uppercase; /* Sports menus are almost always uppercase */
+  padding: 0 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+ }
+
+ h3 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+ }
