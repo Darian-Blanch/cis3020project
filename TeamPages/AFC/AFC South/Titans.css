@@ -1,16 +1,17 @@
 
     :root {
-  --ravens-purple: #0C2340;
-  --ravens-gold: #4B92DB;
+  --titans-purple: #0C2340;
+  --titans-gold: #4B92DB;
   --light-gray: #C8102E;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.titans-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   display: flex;
+  border: 4px solid black;
   align-items: center;
   position: relative;
   overflow: hidden;
@@ -18,9 +19,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--titans-gold) 60%, 
+    var(--titans-gold) 61.5%, 
+    var(--titans-purple) 61.5%
   );
 }
 
