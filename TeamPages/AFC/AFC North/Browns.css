@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #311D00;
-  --ravens-gold: #FF3C00;
+  --browns-purple: #311D00;
+  --browns-gold: #FF3C00;
   --light-gray: #f4f4f4;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.browns-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -19,9 +19,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--browns-gold) 60%, 
+    var(--browns-gold) 61.5%, 
+    var(--browns-purple) 61.5%
   );
 }
 

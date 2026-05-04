@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #125740;
-  --ravens-gold: #FFFFFF;
+  --jets-purple: #125740;
+  --jets-gold: #FFFFFF;
   --light-gray: #000000;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.jets-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -19,9 +19,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--jets-gold) 60%, 
+    var(--jets-gold) 61.5%, 
+    var(--jets-purple) 61.5%
   );
 }
 
