@@ -1,7 +1,7 @@
 
     :root {
-  --ravens-purple: #241773;
-  --ravens-gold: #9E7C0C;
+  --ravens-purple: #311D00;
+  --ravens-gold: #FF3C00;
   --light-gray: #f4f4f4;
   --dark-text: #333;
 }
@@ -69,15 +69,15 @@
 
 .team-nav-bar {
   display: flex;
-  background-color: #241773 ; /* Official NFL Deep Blue */
+  background-color: #311D00 ; /* Official NFL Deep Blue */
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #9E7C0C; 
+  border-bottom: 4px solid #FF3C00; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #9E7C0C;
-  border-left: 4px solid #9E7C0C;
-  border-right: 4px solid #9E7C0C;
+  border-top:4px solid #FF3C00;
+  border-left: 4px solid #FF3C00;
+  border-right: 4px solid #FF3C00;
 }
 .team-nav-links {
   display: flex;

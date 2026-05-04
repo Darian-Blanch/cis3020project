@@ -1,8 +1,8 @@
 
     :root {
   --ravens-purple: #125740;
-  --ravens-gold: #FFFFF;
-  --light-gray: #00000;
+  --ravens-gold: #FFFFFF;
+  --light-gray: #000000;
   --dark-text: #333;
 }
 
@@ -73,11 +73,11 @@
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #FFFFF; 
+  border-bottom: 4px solid #FFFFFF; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #FFFFF;
-  border-left: 4px solid #FFFFF;
-  border-right: 4px solid #FFFFF;
+  border-top:4px solid #FFFFFF;
+  border-left: 4px solid #FFFFFF;
+  border-right: 4px solid #FFFFFF;
 }
 .team-nav-links {
   display: flex;
