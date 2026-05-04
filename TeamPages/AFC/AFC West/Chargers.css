@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #241773;
-  --ravens-gold: #9E7C0C;
+  --chargers-purple: #0080C6;
+  --chargers-gold: #FFC20E;
   --light-gray: #f4f4f4;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.chargers-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -18,9 +18,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--chargers-gold) 60%, 
+    var(--chargers-gold) 61.5%, 
+    var(--chargers-purple) 61.5%
   );
 }
 
@@ -69,15 +69,15 @@
 
 .team-nav-bar {
   display: flex;
-  background-color: #241773 ; /* Official NFL Deep Blue */
+  background-color: #0080C6 ; /* Official NFL Deep Blue */
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #9E7C0C; 
+  border-bottom: 4px solid #FFC20E; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #9E7C0C;
-  border-left: 4px solid #9E7C0C;
-  border-right: 4px solid #9E7C0C;
+  border-top:4px solid #FFC20E;
+  border-left: 4px solid #FFC20E;
+  border-right: 4px solid #FFC20E;
 }
 .team-nav-links {
   display: flex;
