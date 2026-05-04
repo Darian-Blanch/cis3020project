@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #6653dd;
-  --ravens-gold: #9E7C0C;
-  --light-gray: #f4f4f4;
+  --lions-purple: #0076b6;
+  --lions-gold: #B0B7BC;
+  --light-gray: #000000;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.lions-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -18,9 +18,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--lions-gold) 60%, 
+    var(--lions-gold) 61.5%, 
+    var(--lions-purple) 61.5%
   );
 }
 
@@ -69,15 +69,15 @@
 
 .team-nav-bar {
   display: flex;
-  background-color: #241773 ; /* Official NFL Deep Blue */
+  background-color: #0076B6 ; /* Official NFL Deep Blue */
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #9E7C0C; 
+  border-bottom: 4px solid #B0B7BC; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #9E7C0C;
-  border-left: 4px solid #9E7C0C;
-  border-right: 4px solid #9E7C0C;
+  border-top:4px solid #B0B7BC;
+  border-left: 4px solid #B0B7BC;
+  border-right: 4px solid #B0B7BC;
 }
 .team-nav-links {
   display: flex;
