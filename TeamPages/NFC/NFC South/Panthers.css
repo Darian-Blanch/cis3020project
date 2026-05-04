@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #241773;
-  --ravens-gold: #9E7C0C;
+  --panthers-purple: #0085CA;
+  --panthers-gold: #101820;
   --light-gray: #f4f4f4;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.panthers-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -18,9 +18,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--panthers-gold) 60%, 
+    var(--panthers-gold) 61.5%, 
+    var(--panthers-purple) 61.5%
   );
 }
 
@@ -69,15 +69,15 @@
 
 .team-nav-bar {
   display: flex;
-  background-color: #241773 ; /* Official NFL Deep Blue */
+  background-color: #0085CA ; /* Official NFL Deep Blue */
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #9E7C0C; 
+  border-bottom: 4px solid #101820; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #9E7C0C;
-  border-left: 4px solid #9E7C0C;
-  border-right: 4px solid #9E7C0C;
+  border-top:4px solid #101820;
+  border-left: 4px solid #101820;
+  border-right: 4px solid #101820;
 }
 .team-nav-links {
   display: flex;

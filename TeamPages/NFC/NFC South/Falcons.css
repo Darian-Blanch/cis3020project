@@ -1,12 +1,12 @@
 
     :root {
-  --ravens-purple: #241773;
-  --ravens-gold: #9E7C0C;
-  --light-gray: #f4f4f4;
+  --falcons-purple: #A71930;
+  --falcons-gold: #000000;
+  --light-gray: #A5ACAF;
   --dark-text: #333;
 }
 
-.ravens-banner {
+.falcons-banner {
   width: 100%;
   height: 250px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -18,9 +18,9 @@
   background: linear-gradient(
     110deg, 
     var(--light-gray) 60%, 
-    var(--ravens-gold) 60%, 
-    var(--ravens-gold) 61.5%, 
-    var(--ravens-purple) 61.5%
+    var(--falcons-gold) 60%, 
+    var(--falcons-gold) 61.5%, 
+    var(--falcons-purple) 61.5%
   );
 }
 
@@ -69,15 +69,15 @@
 
 .team-nav-bar {
   display: flex;
-  background-color: #241773 ; /* Official NFL Deep Blue */
+  background-color: #A71930 ; /* Official NFL Deep Blue */
   height: 60px;
   width: 100%;
   align-items: center;
-  border-bottom: 4px solid #9E7C0C; 
+  border-bottom: 4px solid #000000; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  border-top:4px solid #9E7C0C;
-  border-left: 4px solid #9E7C0C;
-  border-right: 4px solid #9E7C0C;
+  border-top:4px solid #000000;
+  border-left: 4px solid #000000;
+  border-right: 4px solid #000000;
 }
 .team-nav-links {
   display: flex;
