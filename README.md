@@ -6,6 +6,9 @@ https://gemini.google.com/share/58caaeabe8bc
 
 https://gemini.google.com/share/b107be5e68cf
 
+
+https://1drv.ms/v/c/b94e38dd12089910/IQDqnFpiQJXTQIy2f47NS4NeAdr_N6EU2gyxpaoyGuczCT0?e=RjD9Jb
+
 NOTE: I paid the extra $25 in order to keep access to the zybooks for a year instead of just the semester. I hope to have more time to thoroughly practice JavaScript and other content in the course. 
 
 
