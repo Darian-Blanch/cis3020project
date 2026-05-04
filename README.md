@@ -1,4 +1,7 @@
 **Live Site Link:** https://darian-blanch.github.io/cis3020project/
+**Gemini Chats that were not previously working:** 
+https://gemini.google.com/share/58caaeabe8bc
+https://gemini.google.com/share/b107be5e68cf
 
 NOTE: I paid the extra $25 in order to keep access to the zybooks for a year instead of just the semester. I hope to have more time to thoroughly practice JavaScript and other content in the course. 
 
